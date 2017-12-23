@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Weather Photo</string>
+    <string name="title_activity_main">Weather Photo</string>
+    <string name="no_previous_photos">No previous photos posted</string>
+    <string name="facebook_app_id">335789140235837</string>
+    <string name="share_on_facebook">Share on Facebook</string>
+    <string name="take_photo_first">Take a photo first</string>
+    <string name="permissions_explanation">Please enable camera and location permissions from your
+        settings so you can take a weather photo</string>
+    <string name="enable_gps_explanation">Enable Gps from settings so we can get your current location temperature </string>
+    <string name="change_from_settings">Change from settings</string>
+    <string name="no">No</string>
+    <string name="get_temp_failed">Can\'t get weather temperature now, Please check you internet connection and try again</string>
+    <string name="please_wait">Please wait ...</string>
+</resources>

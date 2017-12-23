@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:background="@drawable/capture_bg">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/close"
+        android:layout_alignParentRight="true"
+        android:id="@+id/closeCapturePhotoIcon"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/capture_photo"
+        android:layout_centerInParent="true"
+        android:id="@+id/capturePhotoIcon"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/com_facebook_blue"
+        android:text="@string/share_on_facebook"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/sharePhotoToFacebookButton"
+        android:textColor="@android:color/white"
+        android:textAllCaps="false"
+        android:drawableLeft="@drawable/com_facebook_button_icon_white"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:drawablePadding="10dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/capturedPhotoImageView"
+        android:layout_above="@id/sharePhotoToFacebookButton"
+        android:layout_below="@id/closeCapturePhotoIcon"
+        android:visibility="gone"/>
+
+</RelativeLayout>
